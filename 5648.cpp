@@ -23,4 +23,3 @@ int main(void)
 		cout << i << '\n';
 	return (0);
 }
-//
