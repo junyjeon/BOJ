@@ -22,4 +22,4 @@ int main(void)
 	for (auto i : v)
 		cout << i << '\n';
 	return (0);
-}
+}//
