@@ -5,10 +5,10 @@ int main()
 {
 	int n = 5;
 	int i = 0;
-	int j = 1;
 	while (i < n)
 	{
-		while (j <= (i + 1) * (i + 2) / 2)
+		int j = 1 + i;
+		while (j <= n + i)
 		{
 			printf("%3d", j);
 			++j;
@@ -16,5 +16,6 @@ int main()
 		printf("\n");
 		++i;
 	}
+
 	return 0;
 }
