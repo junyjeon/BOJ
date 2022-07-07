@@ -32,7 +32,7 @@ void	empty(void)
 
 void	top(void)
 {
-	if (top >= 0)
+	if (idx >= 0)
 		printf("%d\n", stack[idx]);
 	else
 		printf("-1\n");

@@ -36,7 +36,7 @@
             "command": "gcc",
             "args": [
                 "${file}",
-                "-o -Wall -Wextra - Werror",
+                "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": "build",
