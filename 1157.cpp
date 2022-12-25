@@ -21,6 +21,6 @@ int	solve()
 int	main(void)
 {
 	fast_io;
-	cout << solve();
+	solve();
 	return (0);
 }
