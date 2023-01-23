@@ -26,3 +26,4 @@ int	main(void)
 	cout << solve();
 	return (0);
 }
+a
