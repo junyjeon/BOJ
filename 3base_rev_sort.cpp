@@ -29,4 +29,4 @@ int main(void)
 {
 	cout << solution(45);
 	return (0);
-}a
+}
