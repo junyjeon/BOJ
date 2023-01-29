@@ -35,4 +35,4 @@ int main(void)
 	int res = solve(N);
 	cout << res;
 	return(0);
-}
+}a
