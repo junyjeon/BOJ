@@ -4,9 +4,16 @@ using namespace std;
 
 void solve()
 {
-	long n, m;
-	cin >> n >> m;
-	cout << abs(n - m);
+	string str;
+	cin >> str;
+	for (int i = 0; i < str.length(); i++)
+	{
+		if (str[i] < 'a')
+			str[i] = tolower(str[i]);
+		else
+			str[i] = toupper(str[i]);
+	}
+	cout << str;
 }
 
 int main(void)
