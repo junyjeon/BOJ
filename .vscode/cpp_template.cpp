@@ -4,19 +4,7 @@ using namespace std;
 
 void solve()
 {
-	int n;
-	cin >> n;
-
-	int count = 0;
-	int num = 666;
-
-	while (count < n)
-	{
-		if (to_string(num).find("666") != string::npos)
-			count++;
-		num++;
-	}
-	cout << num - 1 << "\n";
+	
 }
 
 int main(void)
