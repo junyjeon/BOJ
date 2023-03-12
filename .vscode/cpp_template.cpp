@@ -2,25 +2,26 @@
 #define fast_io ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)
 using namespace std;
 
-int	solve()
+void solve()
 {
-	string str;
-	int cnt = 0;
-	getline(cin, str);
-	if (str.empty())
-		cout << "0";
-	for (int i = 0; i < str.length(); i++)
-		if (str[i] == ' ' && i != 0)
-			cnt++;
-	if (str.back() == ' ')
-		cnt--;
-	cnt++;
-	return (cnt);
+	int n;
+	cin >> n;
+
+	int count = 0;
+	int num = 666;
+
+	while (count < n)
+	{
+		if (to_string(num).find("666") != string::npos)
+			count++;
+		num++;
+	}
+	cout << num - 1 << "\n";
 }
 
-int	main(void)
+int main(void)
 {
 	fast_io;
 	solve();
-	return (0);
+	return 0;
 }
