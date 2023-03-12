@@ -4,7 +4,7 @@ using namespace std;
 
 void solve()
 {
-	long long n, m;
+	long n, m;
 	cin >> n >> m;
 	cout << abs(n - m);
 }
