@@ -9,9 +9,9 @@
 		"stopAtEntry": false,
 		"externalConsole": false,
 		"cwd": "/home/junyojeo/BOJ",
-		"program": "/home/junyojeo/BOJ/sprout/1920",
+		"program": "/home/junyojeo/BOJ/CLASS_2/1966",
 		"MIMode": "gdb",
-		"miDebuggerPath": "/usr/bin/gdb",
+		"miDebuggerPath": "/home/junyojeo/.brew/bin/gdb",
 		"setupCommands": [
 		  {
 			"description": "Enable pretty-printing for gdb",
